@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question1_title"
+        android:textSize="@dimen/Titles"
+        android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/Info"
+            android:text="@string/question_1"
+            android:layout_weight="1"/>
+        <CheckBox
+            android:text="@string/red"
+            android:textSize="@dimen/Info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/red"
+            android:layout_weight="1"/>
+        <CheckBox
+            android:text="@string/green"
+            android:textSize="@dimen/Info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/green"
+            android:layout_weight="1"/>
+        <CheckBox
+            android:text="@string/blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/blue"
+            android:layout_weight="1"/>
+        <CheckBox
+            android:text="@string/yellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/yellow"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit_button"
+            android:onClick="question1Submit"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</ScrollView>

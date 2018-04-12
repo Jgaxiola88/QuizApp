@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="Titles">24sp</dimen>
+    <dimen name = "Info">16sp</dimen>
+</resources>

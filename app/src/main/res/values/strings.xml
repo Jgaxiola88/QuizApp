@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="Title">Welcome, Please enter your name</string>
+    <string name="Final_Score">Your Final Score is:</string>
+    <string name="name_hint">Enter Name...</string>
+    <string name="answer_hint">Enter your favorite color...</string>
+    <string name="yellow">Yellow</string>
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="orange">Orange</string>
+    <string name="green">Green</string>
+    <string name="black">Black</string>
+    <string name="brown">Brown</string>
+    <string name="purple">Purple</string>
+    <string name="True">True</string>
+    <string name="False">False</string>
+    <string name="submit_button">Submit</string>
+    <string name="start_button">Start Quiz</string>
+    <string name="score_button">Score Quiz</string>
+    <string name="reset_button">Try Again?</string>
+    <string name="question1_title">Question 1</string>
+    <string name="question2_title">Question 2</string>
+    <string name="question3_title">Question 3</string>
+    <string name="question4_title">Question 4</string>
+    <string name="question5_title">Question 5</string>
+    <string name="question_1">What are the 3 primary colors?</string>
+    <string name="question_2">What color does Red and Yellow make?</string>
+    <string name="questions_3">True/False: Blue and Yellow make Green!</string>
+    <string name="question_4">What color does Blue and Red make?</string>
+    <string name="question_5">What is your favorite color?</string>
+</resources>
